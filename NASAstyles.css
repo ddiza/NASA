@@ -1,0 +1,71 @@
+body {
+    width: 850px;
+}
+
+
+main {
+    height: 450px;
+    background-image: url("https://www.nasa.gov/sites/default/files/thumbnails/image/hubble_friday_09252015.jpg");
+    background-size: 900px 450px;
+    background-image: center;
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+    text-align: center;
+    font-family: 'Verdana';
+    font-weight: bold;
+    }
+
+div {
+    display: grid;
+    grid-template-columns: 270px 270px 270px;
+    background-color: rgb(236, 234, 234);
+    font-family: 'Arial';
+    font-size: 14px;
+}
+
+section1 {
+    padding-left: 0px;
+    line-height: 1.5;
+    text-align: left;
+    height: 324px;
+    width: 270px;
+}
+
+section2 { 
+    padding-left: 0px;
+    line-height: 1.5;
+    height: 324px;
+    width: 270px;
+}
+
+section3 {
+    padding-top: 7px;
+    line-height: 20px;
+}
+
+h1 {
+    padding-top: 210px;
+    text-align: center;
+    font-size: 5;
+    font-family: 'Arial';
+    font-weight: bold;
+
+}
+
+h2 {
+    padding-top: 7px;
+    line-height: 1;
+    font-size: 20px;  
+}
+
+
+button {
+    height: 30px;
+    width: 75px;
+    margin-top: 10px;
+    font-family: 'verdana';
+    background-color: black;
+    color: white;
+    font-family: 'Arial';
+    font-weight: bold;
+}
